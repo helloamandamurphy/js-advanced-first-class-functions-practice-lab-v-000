@@ -5,7 +5,7 @@ const logDriverNames = function (drivers) {
 };
 
 const logDriversByHometown = function (drivers, hometown) {
-  drivers.forEach(function (driver) {
+  drivers.forEach(function (driver) if hometown === driver.hometown {
     console.log(driver.name)
   })
 }
