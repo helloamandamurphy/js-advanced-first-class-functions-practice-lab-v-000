@@ -1,6 +1,6 @@
 function logDriverNames(drivers) {
   drivers.forEach {
-  console.log(driver.name)};
+  console.log(driver.name)}
 }
 
 function logDriversByHometown() {}
