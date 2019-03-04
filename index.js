@@ -8,4 +8,4 @@ function driversByName() {}
 
 function totalRevenue() {}
 
-function 
+function averageRevenue() {}
