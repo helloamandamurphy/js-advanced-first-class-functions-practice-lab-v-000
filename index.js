@@ -12,7 +12,11 @@ const logDriversByHometown = function (drivers, hometown) {
   });
 };
 
-function driversByRevenue() {}
+const driversByRevenue = function(drivers) {
+  drivers.forEach(function (driver, cb) {
+    driver.sort(driver.revenue)
+  })
+}
 
 function driversByName() {}
 
