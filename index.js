@@ -1,4 +1,4 @@
-function logDriverNames() {}
+function logDriverNames(drivers) {}
 
 function logDriversByHometown() {}
 
