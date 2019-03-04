@@ -4,7 +4,7 @@ const logDriverNames = function (drivers) {
   });
 };
 
-function logDriversByHometown() {}
+const logDriversByHometown = function {}
 
 function driversByRevenue() {}
 
