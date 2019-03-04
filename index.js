@@ -12,18 +12,17 @@ const logDriversByHometown = function (drivers, hometown) {
   });
 };
 
-const driversByRevenue = function(drivers) {
+const driversByRevenue = function (drivers) {
     return drivers.slice().sort(function (first, second) {
       return first.revenue - second.revenue;
     });
   };
 
-const driversByName = function(drivers) {
-  drivers.sort(function (driver) {
-    const orderedDrivers = []
-    driver.name;
+const driversByName = function (drivers) {
+  return drivers.slice().sort(function (first, second) {
+    return first.name - second.name;
   });
-}
+};
 
 function totalRevenue() {}
 
