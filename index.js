@@ -4,7 +4,11 @@ const logDriverNames = function (drivers) {
   });
 };
 
-const logDriversByHometown = function {}
+const logDriversByHometown = function (drivers, hometown) {
+  drivers.forEach(function (driver) {
+    console.log(driver.name)
+  })
+}
 
 function driversByRevenue() {}
 
