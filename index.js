@@ -13,16 +13,10 @@ const logDriversByHometown = function (drivers, hometown) {
 };
 
 const driversByRevenue = function(drivers) {
-  drivers.forEach(function (driver, cb) {
-    driver.sort(driver.revenue)
-    
-    const numberSorter = function (num1, num2) {
-  return num1 - num2;
-};
- 
-    driver.sort(numberSorter);
-  })
-}
+    return drivers.slice().sort(function (first, second) {
+      return first.revenue - second.revenue;
+    });
+  };
 
 function driversByName() {}
 
