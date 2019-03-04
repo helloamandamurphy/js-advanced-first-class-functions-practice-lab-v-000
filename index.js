@@ -24,6 +24,8 @@ const driversByName = function (drivers) {
   });
 };
 
-function totalRevenue() {}
+const totalRevenue = function(drivers) {
+  
+}
 
 function averageRevenue() {}
