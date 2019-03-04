@@ -6,4 +6,6 @@ function driversByRevenue() {}
 
 function driversByName() {}
 
+function totalRevenue() {}
+
 function 
